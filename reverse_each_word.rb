@@ -9,7 +9,7 @@ require 'pry'
 
 def reverse_each_word(string)
   sentence = [string]
-  sentence << sentence.each.reverse  
+  sentence << sentence.each.reverse.split(" ")
   end
 sentence
 end
